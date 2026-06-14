@@ -1,0 +1,12 @@
+C:\Users\emosk\OneDrive\Рабочий стол\учеба\pr15_Moskvina_\bin\Debug\pr15_Moskvina_.exe.config
+C:\Users\emosk\OneDrive\Рабочий стол\учеба\pr15_Moskvina_\bin\Debug\pr15_Moskvina_.exe
+C:\Users\emosk\OneDrive\Рабочий стол\учеба\pr15_Moskvina_\bin\Debug\pr15_Moskvina_.pdb
+C:\Users\emosk\OneDrive\Рабочий стол\учеба\pr15_Moskvina_\obj\Debug\pr15_Moskvina_.csproj.AssemblyReference.cache
+C:\Users\emosk\OneDrive\Рабочий стол\учеба\pr15_Moskvina_\obj\Debug\pr15_Moskvina_.AddStud.resources
+C:\Users\emosk\OneDrive\Рабочий стол\учеба\pr15_Moskvina_\obj\Debug\pr15_Moskvina_.Form1.resources
+C:\Users\emosk\OneDrive\Рабочий стол\учеба\pr15_Moskvina_\obj\Debug\pr15_Moskvina_.Properties.Resources.resources
+C:\Users\emosk\OneDrive\Рабочий стол\учеба\pr15_Moskvina_\obj\Debug\pr15_Moskvina_.csproj.GenerateResource.cache
+C:\Users\emosk\OneDrive\Рабочий стол\учеба\pr15_Moskvina_\obj\Debug\pr15_Moskvina_.csproj.CoreCompileInputs.cache
+C:\Users\emosk\OneDrive\Рабочий стол\учеба\pr15_Moskvina_\obj\Debug\pr15_Moskvina_.exe
+C:\Users\emosk\OneDrive\Рабочий стол\учеба\pr15_Moskvina_\obj\Debug\pr15_Moskvina_.pdb
+C:\Users\emosk\OneDrive\Рабочий стол\учеба\pr15_Moskvina_\obj\Debug\pr15_Moskvina_.exe.config
