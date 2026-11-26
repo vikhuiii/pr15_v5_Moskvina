@@ -1,13 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Xml.Serialization;
 
 namespace pr15_Moskvina_
 {
@@ -29,12 +23,12 @@ namespace pr15_Moskvina_
         }
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            var dialog = new AddStud();
+            var dialog = new AddStud(group.GetAllStuds());
             if (dialog.ShowDialog() == DialogResult.OK)
             {
                 group.AddStudent(dialog.Stud);
                 UpdateStudList(group.GetAllStuds());
-                MessageBox.Show("Студент успешно добавлен");
+                MessageBox.Show("Студент успешно добавлен", "Успех", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
@@ -56,7 +50,7 @@ namespace pr15_Moskvina_
 
         private void btnSearch_Click(object sender, EventArgs e)
         {
-            if(group.Count == 0)
+            if (group.Count == 0)
             {
                 MessageBox.Show("Нет студентов для поиска");
                 return;
@@ -67,11 +61,10 @@ namespace pr15_Moskvina_
                 MessageBox.Show("Введите фамилию");
                 return;
             }
-            var searchRes=group.FindByLastName(search);
+            var searchRes = group.FindByLastName(search);
             if (searchRes.Count > 0)
             {
                 UpdateStudList(searchRes);
-
             }
             else MessageBox.Show($"Студенты с фамилией '{search}' не найдены");
         }
@@ -96,15 +89,16 @@ namespace pr15_Moskvina_
         {
             switch (index)
             {
-                case 1:
+                case 0:
                     return list;
-                case 2:
+                case 1: 
                     return group.SortByLastName(list);
-                case 3:
+                case 2: 
                     return group.SortByBirthDate(list);
-                case 4:
+                case 3: 
                     return group.SortByPhoneNum(list);
-                default: return list;
+                default:
+                    return list;
             }
         }
 
